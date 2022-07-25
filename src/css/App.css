@@ -18,9 +18,17 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 20px;
     font-size: 20px;
+}
+.card button {
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.card button i {
+    font-size: 35px;
 }
